@@ -21,7 +21,7 @@ img {
 .circle {
     animation-name: rotation;
     animation-duration: 60s;
-    animation-timing-function: unset;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
