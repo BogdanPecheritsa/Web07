@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    Azure
+    #00ffcc
+    #00f9d0
+    #00b3ff
+    #6fe6e4
+    #20dad8
+    #00d4b3;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    border: 4px solid #00b3ff;
+    background-color: #00f9d0;
+    height: 300px;
+    width: 600px;
+    transition: all 2S;
+}
+
+main {
+    display: flex;
+}
+
+main:hover div:first-child {
+    transform: perspective(400px) rotateY(30deg);
+}
+
+main:hover div:last-child {
+    transform: perspective(400px) rotateY(-30deg);
+}
+
+main:hover .text {
+    opacity: 100%;
+    transition: all 1s 1s;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    opacity: 0;
+    font-weight: bold;
+}
