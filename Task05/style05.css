@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop {
+    position: relative;
+    right: 40px;
+    top: 100px;
+    animation-name: dropping;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    width: 2rem;
+}
+
+@keyframes dropping {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(10px);
+    }
+    20% {
+        transform: translateY(20px);
+    }
+    30% {
+        transform: translateY(30px);
+    }
+    40% {
+        transform: translateY(40px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    60% {
+        transform: translateY(60px);
+    }
+    70% {
+        transform: translateY(70px);
+    }
+    80% {
+        transform: translateY(80px);
+    }
+    90% {
+        transform: translateY(90px);
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
